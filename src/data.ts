@@ -1,52 +1,59 @@
-import uiUxOne from "./assets/ui-ux-project-one.svg";
-import uiUxTwo from "./assets/ui-ux-project-two.svg";
-import uiUxThree from "./assets/ui-ux-project-three.svg";
-import webOne from "./assets/web-project-one.jpeg";
-import webTwo from "./assets/web-project-two.jpeg";
-import webThree from "./assets/web-project-three.jpeg";
+import chatapp from "./assets/Chat App.png";
+import notepad from "./assets/Notes App.png";
+import quizapp from "./assets/Quiz-app.png";
+import spotify from "./assets/Spotify.png";
+import swiggy from "./assets/Swiggy.png";
+import ecommerce from "./assets/AnyMarket.png";
 
 interface Project {
   id: number;
   category: string;
   img: string;
   title: string;
+  link: string;
 }
 
 export const projects: Project[] = [
   {
     id: 0,
-    category: "uiUx",
-    img: uiUxOne,
-    title: "UI/UX Web Template",
+    category: "front",
+    img: swiggy,
+    title: "Front-end Swiggy Clone",
+    link: "https://apna-tasty-food.netlify.app/",
   },
   {
     id: 1,
-    category: "uiUx",
-    img: uiUxTwo,
-    title: "UI/UX Tablet Template",
+    category: "front",
+    img: notepad,
+    title: "Notepad",
+    link: "https://gangsagar.github.io/notepad/",
   },
   {
     id: 2,
-    category: "uiUx",
-    img: uiUxThree,
-    title: "Solar System App Design",
+    category: "front",
+    img: chatapp,
+    title: "Chat-App",
+    link: "https://chatapp-2da5a.web.app/",
   },
   {
     id: 3,
-    category: "web",
-    img: webOne,
-    title: "Interior Design Website",
+    category: "front",
+    img: ecommerce,
+    title: "Ecommerce",
+    link: "https://gangsagar.github.io/ecommerce/",
   },
   {
     id: 4,
     category: "web",
-    img: webTwo,
-    title: "Agency Landing Page",
+    img: quizapp,
+    title: "Quiz App",
+    link: "https://gangsagar.github.io/Quiz-App/",
   },
   {
     id: 5,
     category: "web",
-    img: webThree,
-    title: "Crypto Landing Page",
+    img: spotify,
+    title: "Spotify Clone",
+    link: "https://gangsagar.github.io/music_player/",
   },
 ];

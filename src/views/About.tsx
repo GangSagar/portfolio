@@ -42,8 +42,13 @@ const About = () => {
 
           <Reveal>
             <p className="text-center xl:text-start text-base sm:text-lg text-textSecondary">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis incidunt quis praesentium voluptates et cupiditate minus rem.
-              Voluptatibus ullam beatae expedita voluptatum error, voluptate deserunt impedit similique fuga recusandae sit.
+              My name is Ganga Sagar, currently in the final year of my bachelor's program at the Institute of Engineering and Technology in Lucknow.
+              <br />
+              <br /> I am a Problem Setter Intern at iMocha Company, where i create various problems based on DSA. <br />
+              <br /> I've dedicated myself to competitive programming in C++, solving over 1000 DSA problems on platforms like Codeforces, Codechef,
+              LeetCode, GFG, and CSES. <br />
+              <br /> I am also a Frontend developer where I have worked with many technologies like HTML / CSS / JS / ReactJs / TypeScript / Bootstrap
+              / TailwindCss. <br />
             </p>
           </Reveal>
 
@@ -53,7 +58,7 @@ const About = () => {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: false }}
-            className="flex items-center justify-center xl:justify-start gap-6">
+            className="flex items-center justify-center xl:justify-start gap-6 slg:gap-4">
             <SocialMediaIcon imgSrc={linkedin} title="LinkedIn" link="https://www.linkedin.com/in/ganga-sagar-456a3a245/" />
             <SocialMediaIcon imgSrc={codeforces} title="Codeforces" link="https://codeforces.com/profile/HRN_Harshit" />
             <SocialMediaIcon imgSrc={codechef} title="Codechef" link="https://www.codechef.com/users/hars_02" />

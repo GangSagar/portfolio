@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.ab878e24.css",
+    "main.js": "/portfolio/static/js/main.7c3c2881.js",
+    "static/media/ui-ux-project-three.svg": "/portfolio/static/media/ui-ux-project-three.c4ab1a68cf6682639663adc05e33a5ef.svg",
+    "static/media/ui-ux-project-two.svg": "/portfolio/static/media/ui-ux-project-two.220ed19d358c642386f2dda1fa3a313e.svg",
+    "static/media/projects-page.svg": "/portfolio/static/media/projects-page.a288ad051245dde972b95af641c0190d.svg",
+    "static/media/ui-ux-project-one.svg": "/portfolio/static/media/ui-ux-project-one.8987ef6161957e5ced22044ec2c410f3.svg",
+    "static/media/about-me-page.svg": "/portfolio/static/media/about-me-page.de79a72938ed30948f5289360b9f8b19.svg",
+    "static/media/web-project-one.jpeg": "/portfolio/static/media/web-project-one.7ef0461f72aedc165f64.jpeg",
+    "static/media/web-project-three.jpeg": "/portfolio/static/media/web-project-three.5fc24b8e86904bfe5856.jpeg",
+    "static/media/home-page.svg": "/portfolio/static/media/home-page.3d99bbe3e9e69e026163d1257c19de1c.svg",
+    "static/media/web-project-two.jpeg": "/portfolio/static/media/web-project-two.49a6c95132ffa750cd8b.jpeg",
+    "static/media/about-illustration.svg": "/portfolio/static/media/about-illustration.71feca1f6210ad9210ca9ecccabd0ad3.svg",
+    "static/media/contact-page.svg": "/portfolio/static/media/contact-page.bb6dd0d5c4b36d67c1d4383d9a597201.svg",
+    "static/media/codechef.svg": "/portfolio/static/media/codechef.bd7dcc10d1375688c4425a4ad2ee3cff.svg",
+    "static/media/contact-illustration.svg": "/portfolio/static/media/contact-illustration.309107b7faed5e5dd0680a8772fd9feb.svg",
+    "static/media/hero-illustration.svg": "/portfolio/static/media/hero-illustration.70b54107e0c76f2b14efa9e9fc862fd9.svg",
+    "static/media/email.svg": "/portfolio/static/media/email.5c5931bd6ff464d0d6901060423a2083.svg",
+    "static/media/github.svg": "/portfolio/static/media/github.78c21ee54878c6d8c9e911e2f9ba9f13.svg",
+    "static/media/linkedin.svg": "/portfolio/static/media/linkedin.4157903098aedc0f1871f5c9362d28dd.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/Codeforces-colored.svg": "/portfolio/static/media/Codeforces-colored.1c196d5bbf82402f92c77dc5824bbe3f.svg",
+    "static/media/download-btn-icon.svg": "/portfolio/static/media/download-btn-icon.db00ff1fa6f1d172b12f9e1441c6d79c.svg",
+    "main.ab878e24.css.map": "/portfolio/static/css/main.ab878e24.css.map",
+    "main.7c3c2881.js.map": "/portfolio/static/js/main.7c3c2881.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab878e24.css",
+    "static/js/main.7c3c2881.js"
+  ]
+}
