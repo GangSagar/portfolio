@@ -7,17 +7,10 @@ interface LabelInputProps {
   textarea?: boolean;
 }
 
-const LabelInput: FC<LabelInputProps> = ({
-  labelText,
-  placeholderText,
-  textarea,
-}) => {
+const LabelInput: FC<LabelInputProps> = ({ labelText, placeholderText, textarea }) => {
   return (
     <div className="flex flex-col gap-2.5 flex-1 w-full">
-      <label
-        htmlFor={placeholderText}
-        className="text-textPrimary text-base sm:text-lg font-bold"
-      >
+      <label htmlFor={placeholderText} className="text-textPrimary text-base sm:text-lg font-bold">
         {labelText}
       </label>
 
@@ -27,8 +20,7 @@ const LabelInput: FC<LabelInputProps> = ({
           rows={9}
           placeholder={placeholderText}
           className="bg-accent rounded-2xl py-4 px-6 text-textPrimary text-base sm:text-lg
-         placeholder-textSecondary outline-none resize-none border-[1px] border-transparent focus:border-hoverSecondary"
-        ></textarea>
+         placeholder-textSecondary outline-none resize-none border-[1px] border-transparent focus:border-hoverSecondary"></textarea>
       ) : (
         <input
           type="text"

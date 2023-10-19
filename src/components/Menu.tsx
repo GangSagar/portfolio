@@ -40,13 +40,13 @@ const Menu = () => {
         </Tooltip>
       </Link>
 
-      {/* <Link to="experience" smooth>
+      <Link to="experience" smooth>
         <Tooltip title="Experience" placement="top" arrow>
           <IconButton className="group">
             <Languages className="text-white group-hover:text-secondary" />
           </IconButton>
         </Tooltip>
-      </Link> */}
+      </Link>
 
       <Link to="contact" smooth>
         <Tooltip title="Contact" placement="top" arrow>
